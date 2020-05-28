@@ -33,7 +33,7 @@ class RecipesTableSeeder extends Seeder
         		RecipeIngredient::create([
         			'recipe_id' => $recipe->id,
         			'name' => $faker->word,
-        			'qty' => mt_rand(1, 12).' Kg'
+        			'qty' => mt_rand(1, 12).' g'
         		]);
         	}
 
